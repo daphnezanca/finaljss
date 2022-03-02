@@ -1,0 +1,381 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*   BARRA DE ARRIBA */
+.barra-uno {
+    display: flex;
+    height: 40px;
+    background-color: rgb(119, 168, 246);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telefono {
+    color: white;
+    margin-left: 0.5em;
+    margin-right: auto;
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    color: white;
+    margin-right: 1em;
+    margin-left: auto;
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-whatsapp {
+    color: white;
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+
+/* BARRA CENTRAL */
+.barra-dos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.busqueda {
+    width: 300px !important;
+}
+
+.btn-outline-success {
+    width: 50px !important;
+}
+
+.carrito {
+    
+    color: rgb(119, 121, 246);
+    font-size: 2em;
+    text-align: center;
+}
+
+.carrito:hover{
+    
+    font-size: 2.5em;
+    
+}
+
+
+.carritom {
+    text-decoration: none;
+    background: none;
+    border: none;
+    
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    height: 60px;
+    background-color: rgb(119, 168, 246);
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* CARRUSEL */
+
+.carousel {
+    margin: auto;
+    width: 80%;
+    padding: 1em;
+}
+
+/* PRODUCTOS */
+
+.titulo h2 {
+    display: inline-block;
+}
+
+.salto-pag {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.salto-pag a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: rgb(119, 168, 246);
+
+}
+
+.salto-pag a:hover {
+    color: gray;
+}
+
+.productos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    margin-top: 0em;
+}
+
+.titulo-productos {
+    margin-bottom: 0em;
+}
+
+.cards-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    height: 80%;
+    margin-right: auto;
+}
+
+.card {
+    margin-top: -1em;
+    box-shadow: 2px 1px 5px 1px gray;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.p-2 {
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 5px 3px gray;
+}
+
+.inner-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: rgb(119, 168, 246);
+    border: solid 1px white;
+}
+
+
+/* FILTRO DE PRODUCTOS */
+
+.seleccion-producto {
+    display: inline-block;
+    box-shadow: 2px 1px 5px 1px gray;
+    ;
+    width: 230px;
+    height: 610px;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+.seleccion-producto .btn {
+    width: 50%;
+    margin-left: 4em;
+    margin-top: 1.5em;
+}
+
+.btn1{
+    width: 70% !important;
+}
+
+.form-check {
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.seleccion-producto p {
+    font-family: fantasy;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.rangos {
+    margin-top: 2em;
+
+}
+
+.rangos h4 {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.rangos p {
+    margin-left: 1.5em;
+    margin-bottom: -0.2em;
+}
+
+
+/* CONTACTO */
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: rgb(119, 168, 246);
+    margin-bottom: 2em;
+}
+
+.suscripcion p {
+    color: white;
+    margin-top: 2em;
+}
+
+.btn-success {
+    margin-top: 1em;
+
+}
+
+.social li {
+
+    margin-top: 0em;
+
+}
+
+.social a i {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    display: block;
+
+}
+
+.contacto h3 {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.btnc {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+.btnv {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+.total {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid white;
+}
+
+/* CARRITO */
+
+#sidebar {
+    position: fixed;
+    width: 380px;
+    height: 100%;
+    background: #151719;
+    right: 0px;
+    top: 0px;
+    transition: all 500ms linear;
+    z-index: 111;
+}
+
+#sidebar.active {
+    right: -380px;
+}
+
+#cerrado {
+    text-decoration: none;
+    background: none;
+    border: none;
+
+}
+
+#cerrado i {
+    color: white;
+    font-size: 30px;
+    margin-right: 0.5em;
+}
+
+.btn-remover {
+    text-decoration: none;
+    background: none;
+    border: none;
+    width: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 15%;
+    margin-left: 0.4em;
+}
+
+form{
+    display: inline-block;
+}
+.comprar {
+    text-decoration: none;
+    background: none;
+    border: 1px solid rgb(119, 168, 246);
+    color: white;
+    background-color: rgb(119, 168, 246);
+    padding: 0.3em;
+    border-radius: 5%;
+    width: 100px;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.comprar:hover {
+    border: solid 1px white;
+}
+
+.vaciar {
+    text-decoration: none;
+    background: none;
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    padding: 0.3em;
+    border-radius: 5%;
+    width: 100px;
+    margin-left:3em;
+    margin-top: 1em;
+}
+
+.vaciar:hover {
+    border: solid 1px white;
+}
+
+

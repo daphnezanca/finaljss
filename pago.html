@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Font -->
+    <script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="finalizar.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+    <title>E-comerce de productos Apple</title>
+</head>
+<body>
+
+    <div class="barra-4">
+        <h1>Finalice su compra</h1>
+    </div>
+
+    <div class='container'>
+      
+      <div class='window'>
+        
+        <div class='order-info'>
+          
+          <div class='order-info-content'>
+            <h2 class="h2card">Carrito</h2>
+                <table>
+                      <div class="productosFinal" id="tbody2">
+  
+                      </div>
+
+                  </table>
+                  <div class="total" id="total2"></div>
+    </div>
+    </div>
+            <div class='credit-info'>
+              <div class='credit-info-content'>
+                <table class='half-input-table'>
+                  <tr><td>Seleccione su tarjeta: </td><td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card'>Visa</div>
+                    <div class='dropdown-select'>
+                    <ul>
+                      <li>Master Card</li>
+                      <li>American Express</li>
+                      </ul></div>
+                    </div>
+                   </td></tr>
+                </table>
+                <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' height='80' class='credit-card-image' id='credit-card-image'></img>
+                Email
+                <input class='input-field' id="email"></input>
+                Numero de tarjeta
+                <input class='input-field' id="number"></input>
+                Nombre completo
+                <input class='input-field' id="name"></input>
+                <table class='half-input-table'>
+                  <tr>
+                    <td> Vencimiento
+                      <input class='input-field' id="vencimiento"></input>
+                    </td>
+                    <td>Codigo de seguridad
+                      <input class='input-field' id="cvc"></input>
+                    </td>
+                  </tr>
+                  
+                </table>
+                
+                <button type="submit" class="finalizar" onclick="finalizar()">Finalizar compra</button>
+    
+              </div>
+    
+            </div>
+          </div>
+    </div>
+    
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="pago.js"></script>
+
+</html>
