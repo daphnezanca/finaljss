@@ -96,7 +96,6 @@ function finalizar() {
     ...prevCart,
     cliente
   ]
-
   localStorage.setItem("DatosCliente", JSON.stringify(newCliente))
 
   Swal.fire(
